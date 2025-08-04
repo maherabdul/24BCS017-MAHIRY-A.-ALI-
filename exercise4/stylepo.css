@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Portfolio</title>
-<style>
-    * {
+ * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -141,65 +134,3 @@
         color: #fff;
         margin-top: 40px;
     }
-
-</style>
-</head>
-<body>
-    <header>
-        <h1>My Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section class="hero" id="hero">
-        <img src="messi.jpg" alt="My Photo">
-        <h2>Hello, I'm Messi</h2>
-       
-    </section>
-
-    <section class="about" id="about">
-        <h2>About Me</h2>
-        <p>
-             I am a player who have a better succesful in this world winning world cup champion and these are my projects
-        </p>
-    </section>
-
-    <section class="portfolio" id="portfolio">
-        <h2>My Projects</h2>
-        <div class="portfolio-grid">
-            <div class="project">
-                
-                <h3>Project One</h3>
-            </div>
-            <div class="project">
-                
-                <h3>Project Two</h3>
-            </div>
-            <div class="project">
-                
-                <h3>Project Three</h3>
-            </div>
-        </div>
-    </section>
-
-    <section class="contact" id="contact">
-        <h2>Contact Me</h2>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea rows="5" placeholder="Your Message"></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Messi. All Rights Reserved.</p>
-    </footer>
-</body>
-</html>
